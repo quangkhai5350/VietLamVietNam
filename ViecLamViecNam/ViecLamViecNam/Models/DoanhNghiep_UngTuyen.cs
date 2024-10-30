@@ -23,7 +23,7 @@ namespace ViecLamViecNam.Models
 
         public DateTime? NgayUngTuyen { get; set; }
 
-        public bool? NTV_TrangThaiUngTuyen { get; set; }
+        public bool NTV_TrangThaiUngTuyen { get; set; }
 
         public DateTime? NgayUpdate { get; set; }
 
