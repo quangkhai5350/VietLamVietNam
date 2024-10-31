@@ -142,8 +142,6 @@
                     </div>
 
                     <div class="form-group">
-
-                        <div>
                             <p>Nơi cấp CMND</p>
                             <span class="icon-case"><i class="glyphicon glyphicon-credit-card"></i></span>
                             <select id="NoiCap_ID" class="form-control" name="NoiCap_ID" style="width: 75%; height: 40px">
@@ -159,7 +157,6 @@
                                     }
                                 }
                             </select>
-                        </div>
                     </div>
 
                     <div class="form-group">
@@ -168,7 +165,7 @@
                         @Html.TextBoxFor(x => x.NgayCap, "{0:yyyy-MM-dd}", new { @class = "form-control", @type = "date", @required = true, @style = " height: 40px" })
                         <div class="validation"></div>
                     </div>
-                    <div class="form-group">
+                    
                         <div class="form-group">
                             <p>@Common.CurrentPlace<span>*</span></p>
                             <div>
@@ -197,7 +194,6 @@
                                 <input value="@Email" style="height: 42px !important" type="email" class="form-control" name="Email_kh" required>
                             </div>
                         </div>
-                    </div>
 
                 </div>
 

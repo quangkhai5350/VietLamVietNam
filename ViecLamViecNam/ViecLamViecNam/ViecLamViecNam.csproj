@@ -5909,6 +5909,7 @@
     <Content Include="Views\Shared\_ThemKinhNghiem.cshtml" />
     <Content Include="Views\Shared\_TopMenu.cshtml" />
     <Content Include="Views\Shared\_TuVan_KyNang.cshtml" />
+    <Content Include="Views\Account\_EditCddAccount.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
