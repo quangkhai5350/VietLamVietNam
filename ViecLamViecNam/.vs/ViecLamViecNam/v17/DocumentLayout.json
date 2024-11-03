@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\",
+  "WorkspaceRootPath": "D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\vieclamviecnam\\views\\account\\_editcddaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|solutionrelative:vieclamviecnam\\views\\account\\_editcddaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\vieclamviecnam\\views\\account\\_candidatedoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|solutionrelative:vieclamviecnam\\views\\account\\_candidatedoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\vieclamviecnam\\dao\\ntv_khachhang_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|solutionrelative:vieclamviecnam\\dao\\ntv_khachhang_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\vieclamviecnam\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|solutionrelative:vieclamviecnam\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\vieclamviecnam\\views\\job\\jobcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|solutionrelative:vieclamviecnam\\views\\job\\jobcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\vieclamviecnam\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\vieclamviecnam\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|solutionrelative:vieclamviecnam\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\vieclamviecnam\\views\\account\\_mainjob.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|d:\\git pm\\vietlamvietnam\\vieclamviecnam\\vieclamviecnam\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|solutionrelative:vieclamviecnam\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\vieclamviecnam\\views\\account\\_candidatedoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|solutionrelative:vieclamviecnam\\views\\account\\_candidatedoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\vieclamviecnam\\dao\\ntv_khachhang_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|solutionrelative:vieclamviecnam\\dao\\ntv_khachhang_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\vieclamviecnam\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|solutionrelative:vieclamviecnam\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\vieclamviecnam\\views\\job\\jobcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|solutionrelative:vieclamviecnam\\views\\job\\jobcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\vieclamviecnam\\views\\account\\_mainjob.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3916B4F3-DC92-4231-98A6-E878393B46DA}|ViecLamViecNam\\ViecLamViecNam.csproj|solutionrelative:vieclamviecnam\\views\\account\\_mainjob.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -38,95 +38,91 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JobCreate.cshtml",
-              "DocumentMoniker": "E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Views\\Job\\JobCreate.cshtml",
-              "RelativeDocumentMoniker": "ViecLamViecNam\\Views\\Job\\JobCreate.cshtml",
-              "ToolTip": "E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Views\\Job\\JobCreate.cshtml",
-              "RelativeToolTip": "ViecLamViecNam\\Views\\Job\\JobCreate.cshtml",
-              "ViewState": "AQIAACAAAAAAAAAAAKBgwDMAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T13:55:04.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_CandidateDoc.cshtml",
-              "DocumentMoniker": "E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Views\\Account\\_CandidateDoc.cshtml",
-              "RelativeDocumentMoniker": "ViecLamViecNam\\Views\\Account\\_CandidateDoc.cshtml",
-              "ToolTip": "E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Views\\Account\\_CandidateDoc.cshtml",
-              "RelativeToolTip": "ViecLamViecNam\\Views\\Account\\_CandidateDoc.cshtml",
-              "ViewState": "AQIAAAEBAAAAAAAAAAAgwBYBAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T13:34:17.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_MainJob.cshtml",
-              "DocumentMoniker": "E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Views\\Account\\_MainJob.cshtml",
-              "RelativeDocumentMoniker": "ViecLamViecNam\\Views\\Account\\_MainJob.cshtml",
-              "ToolTip": "E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Views\\Account\\_MainJob.cshtml",
-              "RelativeToolTip": "ViecLamViecNam\\Views\\Account\\_MainJob.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T08:43:15.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NTV_KhachHang_Dao.cs",
-              "DocumentMoniker": "E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\DAO\\NTV_KhachHang_Dao.cs",
-              "RelativeDocumentMoniker": "ViecLamViecNam\\DAO\\NTV_KhachHang_Dao.cs",
-              "ToolTip": "E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\DAO\\NTV_KhachHang_Dao.cs",
-              "RelativeToolTip": "ViecLamViecNam\\DAO\\NTV_KhachHang_Dao.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAYwDAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T01:48:26.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_EditCddAccount.cshtml",
-              "DocumentMoniker": "E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Views\\Account\\_EditCddAccount.cshtml",
-              "RelativeDocumentMoniker": "ViecLamViecNam\\Views\\Account\\_EditCddAccount.cshtml",
-              "ToolTip": "E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Views\\Account\\_EditCddAccount.cshtml",
-              "RelativeToolTip": "ViecLamViecNam\\Views\\Account\\_EditCddAccount.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T14:47:58.062Z",
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Web.config",
+              "RelativeDocumentMoniker": "ViecLamViecNam\\Web.config",
+              "ToolTip": "D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Web.config",
+              "RelativeToolTip": "ViecLamViecNam\\Web.config",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-03T17:00:15.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "JobCreate.cshtml",
+              "DocumentMoniker": "D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Views\\Job\\JobCreate.cshtml",
+              "RelativeDocumentMoniker": "ViecLamViecNam\\Views\\Job\\JobCreate.cshtml",
+              "ToolTip": "D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Views\\Job\\JobCreate.cshtml",
+              "RelativeToolTip": "ViecLamViecNam\\Views\\Job\\JobCreate.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAKBgwDMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T13:55:04.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_CandidateDoc.cshtml",
+              "DocumentMoniker": "D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Views\\Account\\_CandidateDoc.cshtml",
+              "RelativeDocumentMoniker": "ViecLamViecNam\\Views\\Account\\_CandidateDoc.cshtml",
+              "ToolTip": "D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Views\\Account\\_CandidateDoc.cshtml",
+              "RelativeToolTip": "ViecLamViecNam\\Views\\Account\\_CandidateDoc.cshtml",
+              "ViewState": "AQIAAAEBAAAAAAAAAAAgwBYBAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T13:34:17.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_MainJob.cshtml",
+              "DocumentMoniker": "D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Views\\Account\\_MainJob.cshtml",
+              "RelativeDocumentMoniker": "ViecLamViecNam\\Views\\Account\\_MainJob.cshtml",
+              "ToolTip": "D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Views\\Account\\_MainJob.cshtml",
+              "RelativeToolTip": "ViecLamViecNam\\Views\\Account\\_MainJob.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T08:43:15.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NTV_KhachHang_Dao.cs",
+              "DocumentMoniker": "D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\DAO\\NTV_KhachHang_Dao.cs",
+              "RelativeDocumentMoniker": "ViecLamViecNam\\DAO\\NTV_KhachHang_Dao.cs",
+              "ToolTip": "D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\DAO\\NTV_KhachHang_Dao.cs",
+              "RelativeToolTip": "ViecLamViecNam\\DAO\\NTV_KhachHang_Dao.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAYwDAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T01:48:26.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ViecLamViecNam\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ViecLamViecNam\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAxwGAAAAAJAAAA",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAxwGAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T07:18:16.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ViecLamViecNam\\Controllers\\AccountController.cs",
-              "ToolTip": "E:\\GitHubDestop\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Git pm\\VietLamVietNam\\ViecLamViecNam\\ViecLamViecNam\\Controllers\\AccountController.cs",
               "RelativeToolTip": "ViecLamViecNam\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAALYFAAAAAAAAAAAUwI4GAAAJAAAA",
+              "ViewState": "AgIAALYFAAAAAAAAAAAUwI4GAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T08:52:37.815Z",
               "EditorCaption": ""
