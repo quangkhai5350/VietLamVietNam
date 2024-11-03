@@ -46,6 +46,7 @@
                         <!-- Advanced Tables -->
                         <div class="thongbao_SVL">
                             <p>@Session["ThongBao_KH_TimViec"]</p>
+                            <p>@Session["ThongBao_KH_updatetaikhoan"]</p>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
@@ -106,11 +107,11 @@
                                                                 {
                                                                     if (item.HienThiTrenWeb == true)
                                                                     {
-                                                                        <button class="btn btn-warning text-center" value="@item.TimViec_ID" id="HTWW_@item.TimViec_ID" style="background-color: #eea236" onclick="hienthiweb(@item.TimViec_ID)"><span>Click để tắt Web</span></button>
+                                                                        <button class="btn btn-warning text-center" value="@item.TimViec_ID" id="HTWW_@item.TimViec_ID" style="background-color: #eea236" onclick="hienthiweb(@item.TimViec_ID)"><span>Tắt Web</span></button>
                                                                     }
                                                                     else
                                                                     {
-                                                                        <button class="btn btn-warning text-center" value="@item.TimViec_ID" id="HTWW_@item.TimViec_ID" style="background-color:gray" onclick="hienthiweb(@item.TimViec_ID)"><span>Click để hiển thị Web</span></button>
+                                                                        <button class="btn btn-warning text-center" value="@item.TimViec_ID" id="HTWW_@item.TimViec_ID" style="background-color:gray" onclick="hienthiweb(@item.TimViec_ID)"><span>Click hiển thị Web</span></button>
                                                                     }
 
                                                                 }
@@ -216,7 +217,7 @@
     <script>
         function hienthiweb(id) {
 
-            if (document.getElementById("HTWW_" + id).innerHTML === "<span>Click để tắt Web</span>") {
+            if (document.getElementById("HTWW_" + id).innerHTML === "<span>Tắt Web</span>") {
                 if (!confirm("Bạn KHÔNG MUỐN Nhà Tuyển Dụng thấy hồ sơ này ??")) {
                     return false;
                 } else {
@@ -246,7 +247,7 @@
                         datatype: 'Json',
                         success: function (res) {
                             $("#HTWW_" + id).css("background-color", "#eea236");
-                            document.getElementById("HTWW_" + id).innerHTML = "<span>Click để tắt Web</span>";
+                            document.getElementById("HTWW_" + id).innerHTML = "<span>Tắt Web</span>";
                         }, error: function (err) {
                             console.log(err);
                         }

@@ -588,7 +588,7 @@ namespace ViecLamViecNam.Controllers
                     " where t2.TinhTrangPheDuyetHoSo_ID = 3 and t2.HienThiTrenWeb = 1 and t2.NgayHoSoHetHan >= GETDATE() and UserId=" + uID);
                 //
                 var listTDbyDN = new DAO.DN_HoSoTuyenDung_Dao().GetDSHSbyDN(TD_ID.UserChild_id);
-                for(int i= 0;i< listTDbyDN.Count; i++)
+                for (int i = 0; i < listTDbyDN.Count; i++)
                 {
                     var num = listTDbyDN[i].TuyenDung_ID;
                     //var update = dbc.Database.ExecuteSqlCommand("update VLCty.dbo.[DoanhNghiep_UngTuyen] set DN_Daxem=1 where TuyenDung_ID=@Id",
@@ -1358,14 +1358,14 @@ namespace ViecLamViecNam.Controllers
                         ViewBag.Nganh_ID = new SelectList(dbc.DM_NganhLaoDong.ToList(), "NganhLaoDong_ID", "TenNganhLaoDong", NganhHienTai);
                         ViewBag.Nghe_ID = new SelectList(dbc.DM_NgheLaoDong.Where(kh => kh.NhomNganhLaoDong == NganhHienTai), "NgheLaoDong_ID", "TenNgheLaoDong", model2.Nghe_ID);
                         ViewBag.TrinhDo_ID = new SelectList(dbc.DM_TrinhDoChuyenMon.ToList(), "TrinhDoChuyenMon_ID", "TenChuyenMon", TrinhDoHienTai);
-                        
+
                     }
                     else
                     {
                         ViewBag.Nganh_ID = new SelectList(dbc.DM_NganhLaoDong.ToList(), "NganhLaoDong_ID", "TenNganhLaoDong");
                         ViewBag.Nghe_ID = new SelectList(dbc.DM_NgheLaoDong.ToList(), "NgheLaoDong_ID", "TenNgheLaoDong");
                         ViewBag.TrinhDo_ID = new SelectList(dbc.DM_TrinhDoChuyenMon.ToList(), "TrinhDoChuyenMon_ID", "TenChuyenMon");
-                        
+
                     }
                     return PartialView();
                 }
@@ -1379,7 +1379,7 @@ namespace ViecLamViecNam.Controllers
                     }
                     else { return RedirectToAction("Index", "Home"); }
                 }
-                
+
             }
             return Json("No", JsonRequestBehavior.AllowGet);
 
@@ -1395,7 +1395,7 @@ namespace ViecLamViecNam.Controllers
             }
             return Json("No", JsonRequestBehavior.AllowGet);
         }
-        
+
         [ProtectNTV]
         public ActionResult EditCanDoc(int id)
         {
@@ -1406,7 +1406,7 @@ namespace ViecLamViecNam.Controllers
             ViewBag.ChucDanhMongMuon = dbc.DM_ChucDanh.ToList();
 
             ViewBag.NganhMongMuon_ID = new SelectList(dbc.DM_NganhLaoDong.ToList(), "NganhLaoDong_ID", "TenNganhLaoDong", model.NganhMongMuon_ID);
-            
+
             ViewBag.NgheMongMuon_ID = new SelectList(dbc.DM_NgheLaoDong.Where(kh => kh.NhomNganhLaoDong == model.NganhMongMuon_ID), "NgheLaoDong_ID", "TenNgheLaoDong", model.NgheMongMuon_ID);
             if (model.NganhNghe34_2022 != null && model.NganhNghe34_2022 != "")
             {
@@ -1598,19 +1598,84 @@ namespace ViecLamViecNam.Controllers
                     ViewBag.Nganh_ID = new SelectList(dbc.DM_NganhLaoDong.ToList(), "NganhLaoDong_ID", "TenNganhLaoDong", NganhHienTai);
                     ViewBag.Nghe_ID = new SelectList(dbc.DM_NgheLaoDong.Where(kh => kh.NhomNganhLaoDong == NganhHienTai), "NgheLaoDong_ID", "TenNgheLaoDong", model2.Nghe_ID);
                     ViewBag.TrinhDo_ID = new SelectList(dbc.DM_TrinhDoChuyenMon.ToList(), "TrinhDoChuyenMon_ID", "TenChuyenMon", TrinhDoHienTai);
-                   
+
                 }
                 else
                 {
                     ViewBag.Nganh_ID = new SelectList(dbc.DM_NganhLaoDong.ToList(), "NganhLaoDong_ID", "TenNganhLaoDong");
                     ViewBag.Nghe_ID = new SelectList(dbc.DM_NgheLaoDong.ToList(), "NgheLaoDong_ID", "TenNgheLaoDong");
                     ViewBag.TrinhDo_ID = new SelectList(dbc.DM_TrinhDoChuyenMon.ToList(), "TrinhDoChuyenMon_ID", "TenChuyenMon");
-                    
+
                 }
                 return PartialView(model);
             }
             else return PartialView("_Login");
 
+        }
+        public ActionResult _EditCddAcountJson(string CMND="", string HoTen="", string NgaySinh="", int GioiTinh=0
+            ,string NgayCap = "", int NoiCap_ID=0, string DienThoai="", string Email="", int TamTru_Tinh_ID = 0
+            , int TamTru_Huyen_ID = 0, int TamTru_Xa_ID = 0, string TamTru_DiaChi = ""
+            , int TinhTrangHonNhan = 0, int HocVan_ID = 0,int TrinhDo_ID =0, int Nganh_ID=0, int Nghe_ID =0
+            , int NghiepVu1=0, int NghiepVu11 = 0, int NghiepVu2 = 0, int NghiepVu22 = 0, int NghiepVu3 = 0)
+        {
+            if (Session["UsrID"] != null)
+            {
+                int uID = int.Parse(Session["UsrID"].ToString());
+                var user = dbc.UserWebs.SingleOrDefault(kh => kh.UserID == uID && kh.UserRoles_NVLoaitaikhoan == 3);
+                var Khh = dbc.KhachHangs.Where(kh => kh.KH_ID == user.UserChild_id).Single();
+
+                var model = dbc.KhachHangs.Find(Khh.KH_ID);
+                model.CMND = CMND;
+                model.HoTen = HoTen;
+                model.NgaySinh = DateTime.Parse(NgaySinh);
+                model.GioiTinh = GioiTinh;
+                model.NgayCap = DateTime.Parse(NgayCap);
+                model.NoiCap_ID = NoiCap_ID;
+                model.DienThoai = DienThoai;
+                model.Email = Email;
+                model.TamTru_Tinh_ID = TamTru_Tinh_ID;
+                model.TamTru_Huyen_ID = TamTru_Huyen_ID;
+                model.TamTru_Xa_ID = TamTru_Xa_ID;
+                model.TamTru_DiaChi = TamTru_DiaChi;
+                ///////////////////////////////////////
+                
+                model.TinhTrangHonNhan = TinhTrangHonNhan;
+                model.HocVan_ID = HocVan_ID;
+                model.NgayCapNhat = DateTime.Now;
+                if(model.SoLanCapNhat == null)
+                {
+                    model.SoLanCapNhat = 0;
+                }
+                else
+                {
+                    model.SoLanCapNhat += 1;
+                }
+                var kq1 = DAO.NTV_KhachHang_Dao.Update_NTV112024(dbc, model);
+                if (kq1)
+                {
+                    var UserW = dbc.UserWebs.Find(int.Parse(Session["UsrID"].ToString()));
+                    if (UserW.EmailConnection != Email)
+                    {
+                        UserW.EmailConnection = Email;
+                        dbc.Entry(UserW).State = System.Data.Entity.EntityState.Modified;
+                        dbc.SaveChanges();
+                    }
+                    //ghi bảng KhachHang_TrinhDo
+                    var trinhdo = new DAO.Khachhang_trinhdo_nghiepvu_DAO().Xoa_InsertKhachHang_trinhdo(
+                        TrinhDo_ID, Nganh_ID, Nghe_ID, model.KH_ID, UserW.UserID);
+
+                    //ghi bảng nghiệp vụ
+                    var kqnv = new DAO.Khachhang_trinhdo_nghiepvu_DAO().Xoa_InsertKhachHang_NN_TH_NV(
+                        NghiepVu1, NghiepVu11, NghiepVu2, NghiepVu22, NghiepVu3, model.KH_ID, UserW.UserID);
+                    Session["ThongBao_KH_updatetaikhoan"] = "Update thành công thông tin cá nhân.";
+                }
+                else
+                {
+                    Session["ThongBao_KH_updatetaikhoan"] = "Update không thành công, Có lỗi update !!!.";
+                }
+                return Json("No", JsonRequestBehavior.AllowGet);
+            }
+            return Json("No", JsonRequestBehavior.AllowGet);
         }
         [ProtectNTV]
         public ActionResult _EditCandidateAccount()
@@ -2131,7 +2196,7 @@ namespace ViecLamViecNam.Controllers
         public ActionResult _RegisterEmail()
         {
             Session.Remove("RanDomOTP");
-            
+
             return View("_RegisterEmail");
         }
         [HttpPost]
@@ -2194,7 +2259,7 @@ namespace ViecLamViecNam.Controllers
                         ViewData["Emailxt"] = "Email này đã được sử dụng, chọn gmail khác.";
                     }
                 }
-                
+
             }
             else
             {
@@ -2222,7 +2287,7 @@ namespace ViecLamViecNam.Controllers
         [ValidateInput(false)]
         public ActionResult _RegisterOTP(string maOTP)
         {
-            if(Session["RanDomOTP"] != null)
+            if (Session["RanDomOTP"] != null)
             {
                 string getOTP = Session["RanDomOTP"].ToString();
                 if (maOTP == getOTP)
@@ -2256,7 +2321,7 @@ namespace ViecLamViecNam.Controllers
             {
                 return View("_Register");
             }
-            
+
         }
         public string GetRanDomOTP()
         {
